@@ -6,6 +6,7 @@
 }
 
 body {
+    margin: 0;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -16,14 +17,9 @@ body * {
 .main-login {
     width: 100vw;
     height: 100vh;
-    background: #8A7DDF;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container nav {
-    background-color: #006437;
 }
 
 
@@ -31,7 +27,14 @@ body * {
 .cabecalho {
     width: 100vw;
     height: 100vh;
-    background: #8A7DDF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cabecalho2 {
+    width: 100vw;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -175,4 +178,19 @@ body * {
         width: 90%;
     }
 
+}
+
+.imagem
+{   
+    margin: 0 10px 0 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left;
+}
+
+
+#imagem2
+{
+    cursor: pointer;
 }
