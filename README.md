@@ -3,7 +3,7 @@ Cadeira de Gerencia de Configuração
 Projeto de Restaurante Universitario
 versão Web usando HTML,CSS,JavaScript(Futuramente talves seja migrado para TypeScript)
 
-```
+``` mermaid
 classDiagram
     Aluno "1" -- "1" Refeicao
     Aluno "1"-- "*" Endereco

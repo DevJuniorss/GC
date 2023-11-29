@@ -4,39 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/globalStyle.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/sytleHome.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Ru UFC</title>
+    <title>Login</title>
 </head>
 <footer>
     
 </footer>
 <body>
-    <div class="main-login">
-        <div class="left-login">
-            <h1>Faça Login<br>Para acessar o sistema do Restaurante Universitário UFC Quixadá</h1>
-            <img src="../imagens/brasao.png" class="left-login-image" alt="RU UFC">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="numero do cartao">Número do cartão</label>
-                    <input name="<numero do cartao>"
-                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                        type="number" maxlength="10" placeholder="Número do cartão" />
-                </div>
-                <div class="textfield">
-                    <label for="matricula">Matricula</label>
-                    <input name="<matricula>"
-                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                        type="number" maxlength="6" placeholder="Matricula" />
-                </div>
-                <a href="../src/tela inicial.html" class="btn-login">Login</a>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Welcome Back!</h2>
+                <p class="description description-primary">To keep connected with us <br> please login with your personal info</p>
+                <button id="signin" class="btn btn-primary">sign in</button>
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">Create Account</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>        
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!-- social medias -->
+                <p class="description description-second">Or use your email for registration:</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    
+                    
+                    <button class="btn btn-second">sign up</button>        
+                </form>
+            </div><!-- segunda coluna -->
+        </div><!-- primeiro conteudo -->
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">What's up Buddy!</h2>
+                <p class="description description-primary">Enter your personal details <br> and start journey to the queue</p>
+                <button id="signup" class="btn btn-primary">Sign Up</button>
             </div>
-        </div>
+            <div class="second-column">
+                <h2 class="title title-second">Sign In</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!-- social medias -->
+                <p class="description description-second">or use your Email Account:</p>
+                <form class="form">
+                
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                
+                    <a class="password" href="#">Forgot your password?</a>
+                    <button class="btn btn-second">Sign In</button>
+                </form>
+            </div><!-- segunda coluna -->
+        </div><!-- segundo conteudo -->
     </div>
+    <script src="../Scripts/app.js"></script>
 </body>
-
 </html>
