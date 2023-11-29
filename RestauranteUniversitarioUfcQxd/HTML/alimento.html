@@ -1,21 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD de Alimentos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../CSS/styleAlimento.css" />
+    <title>Listagem de Alimentos</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1>CRUD de Alimentos</h1>
-        <form id="foodForm">
-            <input type="text" id="name" placeholder="Nome do Alimento" required>
-            <input type="text" id="description" placeholder="Descrição" required>
-            <button type="submit">Adicionar Alimento</button>
-        </form>
-        <div id="foodList"></div>
-    </div>
-    <script src="script.js"></script>
+
+    <h2>Listagem de Alimentos</h2>
+
+    <ul class="food-list">
+        <li class="food-item">
+            <img src="../imagens/arroz-integral.jpg" alt="Imagem de Arroz Integral">
+            <div class="food-details">
+                <span>Nome:</span> Arroz Integral
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 3g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/arroz-branco.jpg" alt="Imagem de Arroz Branco" />
+            <div class="food-details">
+                <span>Nome:</span> Arroz Branco
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 2g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/feijao-preto.jpeg" alt="Imagem de Feijão Preto" />
+            <div class="food-details">
+                <span>Nome:</span> Feijão Preto
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 5g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/feijao-carioca.jpg" alt="Imagem de Feijão Carioca" />
+            <div class="food-details">
+                <span>Nome:</span> Feijão Carioca
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 7,6g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/feijao-corda.jpg" alt="Imagem de Feijão Corda" />
+            <div class="food-details">
+                <span>Nome:</span> Feijão Corda
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 7,2g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/feijoada.jpg" alt="Imagem de Feijoada" />
+            <div class="food-details">
+                <span>Nome:</span> Feijoada
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 8g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/porco-frito.jpeg" alt="Imagem de Porco Frito" />
+            <div class="food-details">
+                <span>Nome:</span> Porco Frito
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 25g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/frango-cozido.jpg" alt="Imagem de Frango Cozido" />
+            <div class="food-details">
+                <span>Nome:</span> Frango Cozido
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 28g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/frango-frito.jpg" alt="Imagem de Frango Frito" />
+            <div class="food-details">
+                <span>Nome:</span> Frango Frito
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 27g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/peixe-frito.webp" alt="Imagem de Peixe Frito" />
+            <div class="food-details">
+                <span>Nome:</span> Peixe Frito
+                <br>
+                <span>Quantidade:</span> 100g
+                <br>
+                <span>Proteínas:</span> 15g
+                <br>
+                <span>Contém Glúten:</span> Sim
+            </div>
+        </li>
+
+        <li class="food-item">
+            <img src="../imagens/grao-bico.jpg" alt="Imagem de Grão de bico cozido com legumes" />
+            <div class="food-details">
+                <span>Nome:</span> Grão de bico cozido com legumes
+                <br>
+                <span>Quantidade:</span> 164g
+                <br>
+                <span>Proteínas:</span> 15g
+                <br>
+                <span>Contém Glúten:</span> Não
+            </div>
+        </li>
+
+
+    </ul>
+
 </body>
+
 </html>
