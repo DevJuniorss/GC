@@ -5,6 +5,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background-image: url(https://www.avozdobem.com/wp-content/uploads/2017/12/Sintufce-Quixad%C3%A1-Clovis-Renato-UFC-21-800x500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
     background-color: #333;
