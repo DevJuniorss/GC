@@ -1,0 +1,123 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.important-note {
+    background-color: #d0ffd0;
+    ;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.note {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.note a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.note a:hover {
+    text-decoration: underline;
+}
+
+.description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.description li {
+    margin-bottom: 8px;
+}
+
+.description li::before {
+    content: "•";
+    color: #333;
+    margin-right: 8px;
+}
+
+.description strong {
+    font-weight: bold;
+}
+
+.description p {
+    margin-bottom: 16px;
+}

@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <title>Menu do Restaurante</title>
-  <link rel="stylesheet" href="GlobalStyles.css">
-  <!-- colocar link do stilo especifico -->
+  <title>Formulário de Reclamação</title>
+  <link rel="stylesheet" href="../CSS/styleReclamacao.css">
 </head>
+
 <body>
   <header>
-    <h1>Menu do Restaurante</h1>
+    <h1>Reclamação</h1>
   </header>
-  
+
   <main>
-    <section class="menu-category">
-      <h2>Pratos Principais</h2>
-      <div class="menu-item">
-        <h3>Nome do Prato</h3>
-        <p>Descrição do prato principal.</p>
-        <p>R$ 25,00</p>
-        <button class="complain-btn">Reclamar</button>
-      </div>
-      <!-- Outros pratos principais aqui -->
-      <!--  -->
-    </section>
-    
-    <section class="menu-category">
-      <h2>Bebidas</h2>
-      <div class="menu-item">
-        <h3>Nome da Bebida</h3>
-        <p>Descrição da bebida.</p>
-        <p>R$ 8,00</p>
-        <button class="complain-btn">Reclamar</button>
-      </div>
-      <!-- Outras bebidas aqui -->
-    </section>
+    <form id="complaint-form" onsubmit="submitComplaint(); return false;">
+      <label for="meal-type">Selecione a refeição:</label>
+      <select id="meal-type" name="meal-type">
+        <option value="almoco">Almoço</option>
+        <option value="jantar">Jantar</option>
+
+      </select>
+
+      <label for="complaint-location">Onde encontrou o problema na comida?</label>
+      <input type="text" id="complaint-location" name="complaint-location" required>
+
+      <label for="complaint-text">Descreva sua reclamação:</label>
+      <textarea id="complaint-text" name="complaint-text" rows="4" required></textarea>
+
+      <button type="submit">Enviar Reclamação</button>
+    </form>
   </main>
+
+  <script src="../Scripts/scriptReclamacao.js"></script>
 </body>
+
 </html>
